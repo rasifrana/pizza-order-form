@@ -23,12 +23,14 @@ h1 {
 
 }
 
+/* Order Form Container */
 .order-form-container {
 height: 100%;
 width: 60%;
 margin: auto;
 }
 
+/* Form Styling */
 .order-form {
     padding: 3rem;
     margin: auto;
@@ -62,7 +64,7 @@ input, select{
     width: 100%;
     padding: 0.5rem;
     margin-left: auto;
-    /* border-radius: 1px; */
+    
     outline: none;
     border: 1px solid rgb(187, 178, 178);
     border-radius: 4px;
@@ -119,4 +121,11 @@ hr {
 
 .discount-success {
     color: green;
+}
+
+.error-msg,
+.supersize-msg {
+    color: red;
+    font-size: 0.7rem;
+    font-style: italic;
 }
