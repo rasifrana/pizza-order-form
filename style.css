@@ -31,7 +31,9 @@ margin: auto;
 
 .order-form {
     padding: 3rem;
+    margin: auto;
     width: 100%;
+    max-width: 500px;
     background: #fff;
     -webkit-box-shadow: -8px 25px 115px 1px rgba(0,0,0,0.64);
     -moz-box-shadow: -8px 25px 115px 1px rgba(0,0,0,0.64);
@@ -70,12 +72,42 @@ input:focus {
     border: 1px solid teal;
 }
 
+
+.quantity label {
+    display: inline;
+}
+
+
+.quantity input{
+    width: 30%;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* .form-group .quantity input{
+
+} */
+
 button {
-    margin-top: 1rem;
+    margin-top: 2rem;
     padding: 0.6rem 1.2rem;
     border: 1px solid teal;
     border-radius: 5px;
     background-color: transparent;
     font-size: 1.2rem;
     font-weight: 600px;
+    transition: all 0.3s ease-in-out;
+}
+
+button:hover {
+    background-color: teal;
+    color: #fff;
+    cursor: pointer;
+}
+
+hr {
+    margin: 3rem 0 1rem 0;
 }
