@@ -24,6 +24,7 @@
             <div class="form-group">
                 <label for="">Select Size of your choice</label>
             <select name="" id="size">
+                <option value="">Choose A Size</option>
                 <option value="5">Large</option>
                 <option value="7">Extra-Large</option>
                 <option value="17">Supersize</option>
@@ -35,8 +36,13 @@
         </div>
         <hr>
         <div>
-            <h3>Total Ptice: €<span>0:00</span></h3>
+            <h3 class="total">Total Ptice: €<span id="amount">0:00</span></h3>
         </div>
+        <div class="form-group quantity">
+            Apply Coupon:  <input type="text">
+            <input type="submit" value="Apply">
+        </div>
+
         <button>Order Now</button>
         </form>
         
