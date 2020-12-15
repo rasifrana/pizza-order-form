@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1595708684082-a173bb3a06c5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=2090&q=80");
+    
+}
+
+h1 {
+    text-align: center;
+    padding: 2rem;
+}
+
+.container {
+    padding: 5rem;
+    /* height: 50%; */
+    text-align: center;
+
+}
+
+.order-form-container {
+height: 100%;
+width: 60%;
+margin: auto;
+}
+
+.order-form {
+    padding: 3rem;
+    width: 100%;
+    background: #fff;
+    -webkit-box-shadow: -8px 25px 115px 1px rgba(0,0,0,0.64);
+    -moz-box-shadow: -8px 25px 115px 1px rgba(0,0,0,0.64);
+    box-shadow: -8px 25px 115px 1px rgba(0,0,0,0.64);
+    border-radius: 10px;
+background: #fff;
+}
+
+.container h3 {
+    padding: 1rem;
+    margin: 1rem;
+}
+
+.form-group {
+    padding: 1rem;
+    text-align: left;
+}
+
+label {
+   display: block;
+   margin-bottom: 1rem;
+}
+
+input, select{
+    display: inline-block;
+    width: 100%;
+    padding: 0.5rem;
+    margin-left: auto;
+    /* border-radius: 1px; */
+    outline: none;
+    border: 1px solid rgb(187, 178, 178);
+    border-radius: 4px;
+}
+
+input:focus {
+    border: 1px solid teal;
+}
+
+button {
+    margin-top: 1rem;
+    padding: 0.6rem 1.2rem;
+    border: 1px solid teal;
+    border-radius: 5px;
+    background-color: transparent;
+    font-size: 1.2rem;
+    font-weight: 600px;
+}
